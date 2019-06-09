@@ -1,4 +1,4 @@
 
 def greeting(name)
-  return "Hello #{name}. It's nice to meet you."
+  return "Hello #{name.chomp.strip}. It's nice to meet you."
 end
